@@ -1,0 +1,28 @@
+
+.list {
+  opacity: 0;
+}
+
+.box {
+  opacity: 1;
+}
+
+.alert-text {
+  line-height: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  animation-name: move;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  from {
+    color: black;
+  }
+  to {
+    color: red;
+  }
+}
