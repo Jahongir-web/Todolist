@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <title>Mysite</title>
+  <title>Todolist</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -12,13 +12,13 @@
   <div class="container pt-5">
     <h1 class="text-center">Ro'yhat tuzish.</h1>
 
-    <form action="https://echo.htmlacademy.ru" class="todolist-form form-control d-flex h-100 justify-content-center" method="GET">
+    <form action="https://echo.htmlacademy.ru" class="todolist-form form-control d-flex h-100 justify-content-center flex-wrap" method="GET">
 
       <span class="h4 mr-5">Ro'yhatga element qo'shish</span>
       <input class="todo-element-input mr-5" type="text" aria-label="element nomi" name="name" required>
       <label class="my-2" for="todocheck">Ro'yhat boshiga qo'shmoq</label>
       <input class="todo-checkbox p-5 ml-1 mr-5 my-3" id="todocheck" type="checkbox" aria-label="ro'yhat boshiga qo'shish" name="checkbox">
-      <button class="btn btn-dark">Qo'shib qo'yish</button>
+      <button class="btn btn-dark my-2">Qo'shib qo'yish</button>
     </form>
     <div class="row justify-content-between flex-column">
       <h2 class="alert-text"></h2>
