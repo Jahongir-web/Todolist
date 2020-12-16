@@ -38,5 +38,7 @@ elToDoForm.addEventListener(`submit`, function(evt){
   elList.innerHTML = elementList.join(`</li><li>`);
 
   elInput.value = ``;
+  elCheckbox.checked = false;
+  elInput.focus();
 
 });
